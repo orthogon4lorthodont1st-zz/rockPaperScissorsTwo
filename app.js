@@ -9,7 +9,7 @@ class RockPaperScissors {
           [1,0,-1],
           [-1,1,0]  
         ];
-        this.clickOptions = $(".images");
+        this.clickOptions = $("#images");
         this.message = $("#message");
         this.score = {
             "1": $("#playerscore"),
