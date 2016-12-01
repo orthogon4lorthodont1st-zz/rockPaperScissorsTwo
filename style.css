@@ -1,0 +1,53 @@
+body {
+    background:black;
+    color:white;
+    font-size:20px;
+}
+h1 {
+    text-align:center;
+}
+#container {
+    border:3px solid white;
+    left:30%;
+    position:relative;
+    background:black;
+    height:550px;
+    width:550px;
+    position:relative;
+}
+.x {
+    display:inline;
+    padding-left:15%;
+    padding-right:15%;
+    padding-top:100px;
+}
+#title{
+    left:28%;
+    position:absolute;
+    text-align:center;
+}
+.player {
+    margin-top:100px;
+    text-align:center;
+}
+.computer {
+    text-align:center;
+    margin-top:50px;
+}
+#message {
+    color:darkorange;
+    margin-top:70px;
+    text-align:center;
+}
+
+#rock, #paper, #scissors {
+    padding-left:3%;
+    padding-right:3%;
+}
+#images {
+    width:100%;
+    position:absolute;
+    top:400px;
+    left:50px;
+    padding:2%;
+}
