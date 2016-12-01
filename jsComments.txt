@@ -1,0 +1,21 @@
+
+
+
+ LINE		COMMENT
+
+ 26   // INITIALIZE ALL PARAMETERS OF THE GAME WE NEED TO MANIPULATE
+
+ 
+
+ 31/32   // // the first element is 0, 1, 2 depending which option is clicked
+        // second element is the computer move randomly generated
+
+
+
+33/34	  // return matrix element by returning the position of the element of the array moves.
+            // the event.target.id targets the id of the image which was clicked.
+
+
+
+37/38	  // calculate the winner whereby the output to player or computer is implicit. It is 	       	   // implicit since this.element is calculated during runtime
+        // and based on this we target the relevant element of this.score
