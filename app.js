@@ -35,7 +35,6 @@ class RockPaperScissors {
                  this.message.text(`${this.players[this.matrixElement]} wins!`);
             }else {
                 this.message.text("tie!");
-            }
-    
+            }    
         }
     }
